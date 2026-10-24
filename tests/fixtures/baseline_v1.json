@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "ChanNexus baseline-v1 完整算法快照的 SHA-256 指纹",
+  "cases": {
+    "inclusion_chain": {
+      "sha256": "d92c159fb658f527c0fc94f231c81c611e47be2fd1f75a63ae75f80bc728f2e7",
+      "counts": {"src": 9, "cl": 7, "fx": 4, "bi": 3, "xd": 1, "bi_zs": 1, "xd_zs": 0}
+    },
+    "alternating_swings": {
+      "sha256": "d1016a6cded5f383ec5cccce2ab885361bf4b0024db6ea62ed7be1b4b352e9a6",
+      "counts": {"src": 17, "cl": 17, "fx": 15, "bi": 14, "xd": 6, "bi_zs": 1, "xd_zs": 1}
+    },
+    "equal_extremes": {
+      "sha256": "98d0cca172ba9e5b38ed728c1fc0dcd7d7070e0624e8b686c59bb85d7079b7c3",
+      "counts": {"src": 11, "cl": 8, "fx": 6, "bi": 5, "xd": 2, "bi_zs": 1, "xd_zs": 0}
+    },
+    "default_strict_spacing": {
+      "sha256": "ed3759f20d04d71a3c7eb6f2d27730369b9139e2e1901fc5e66f4c5f0dfde145",
+      "counts": {"src": 21, "cl": 21, "fx": 7, "bi": 2, "xd": 0, "bi_zs": 0, "xd_zs": 0}
+    }
+  }
+}

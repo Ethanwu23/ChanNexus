@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "name": "inclusion_chain",
+      "code": "TEST.INCLUSION",
+      "frequency": "d",
+      "start_date": "2026-01-01",
+      "config": {
+        "bi_type": "top_bottom",
+        "strict_fractal": false
+      },
+      "highs": [10, 9, 12, 11, 13, 10, 14, 12, 15],
+      "lows": [5, 6, 7, 8, 9, 7, 10, 9, 11]
+    },
+    {
+      "name": "alternating_swings",
+      "code": "TEST.SWING",
+      "frequency": "30m",
+      "start_date": "2026-02-01",
+      "config": {
+        "bi_type": "top_bottom",
+        "strict_fractal": false
+      },
+      "highs": [10, 14, 11, 15, 12, 16, 13, 17, 14, 18, 15, 19, 16, 20, 17, 21, 18],
+      "lows": [8, 12, 7, 13, 8, 14, 9, 15, 10, 16, 11, 17, 12, 18, 13, 19, 14]
+    },
+    {
+      "name": "equal_extremes",
+      "code": "TEST.EQUAL",
+      "frequency": "d",
+      "start_date": "2026-03-01",
+      "config": {
+        "bi_type": "top_bottom",
+        "strict_fractal": false
+      },
+      "highs": [10, 13, 13, 11, 14, 14, 12, 15, 15, 13, 16],
+      "lows": [8, 10, 10, 7, 11, 11, 8, 12, 12, 9, 13]
+    },
+    {
+      "name": "default_strict_spacing",
+      "code": "TEST.STRICT",
+      "frequency": "d",
+      "start_date": "2026-04-01",
+      "config": {},
+      "highs": [10, 15, 13, 12, 11, 9, 14, 16, 15, 13, 10, 8, 13, 17, 16, 14, 11, 9, 14, 18, 17],
+      "lows": [8, 12, 11, 10, 8, 6, 11, 13, 12, 10, 7, 5, 10, 14, 13, 11, 8, 6, 11, 15, 14]
+    }
+  ]
+}
